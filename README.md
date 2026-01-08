@@ -64,7 +64,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-2. Run the full paper suite
+Run the full paper suite
 
 python3 -m experiments.run_paper_suite
 
@@ -79,7 +79,6 @@ Results are written to:
 
 results/paper_results.json
 
-
 ⸻
 
 Optional: Run a Single Condition
@@ -92,8 +91,6 @@ Available conditions include:
 	•	mid_punishment_only (negative control)
 	•	support_only (negative control)
 
-⸻
-
 Output
 
 The JSON output includes:
@@ -103,7 +100,7 @@ The JSON output includes:
 
 Raw episode trajectories are not saved to keep the artifact minimal and interpretable.
 
-⸻
+---
 
 Modeling Commitments
 
@@ -116,7 +113,7 @@ This code enforces several non-negotiable constraints, explicitly discussed in t
 
 These choices are deliberate and documented.
 
-⸻
+---
 
 What This Model Is — and Is Not
 
@@ -130,11 +127,7 @@ This model is not:
 	•	a claim of biological optimality,
 	•	a universal theory of collapse.
 
-⸻
 ```
-
-⸻
-
 License
 
 MIT License.
