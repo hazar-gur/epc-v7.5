@@ -1,0 +1,7 @@
+
+paper_conditions:
+  - burst_only
+  - burst_mismatch
+  - mid_punishment_only
+  - support_only
+  - mid_punishment_no_amp
