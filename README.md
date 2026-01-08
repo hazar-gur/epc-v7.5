@@ -129,6 +129,9 @@ This model is not:
 	•	a universal theory of collapse.
 
 ⸻
+```
+
+⸻
 
 License
 
