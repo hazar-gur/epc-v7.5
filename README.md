@@ -32,10 +32,10 @@ All claims are restricted to the model class studied.
 epc-v7.5/
 ├── src/
 │   ├── epc_v75.py          # EPC v7.5 controller implementation
-│   └── init.py
+│   └── __init__.py
 │
 ├── experiments/
-│   └── run_paper_suite.py  # Two-pass validation + negative controls
+│   └── run_paper_suite.py # Two-pass validation + negative controls
 │
 ├── configs/
 │   ├── pre_registered.yaml # Locked parameters (used in paper)
@@ -48,6 +48,7 @@ epc-v7.5/
 │   └── reproduce_all.sh    # Convenience wrapper
 │
 ├── results/                # Output directory (not tracked)
+│
 ├── requirements.txt
 └── README.md
 
