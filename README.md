@@ -29,6 +29,7 @@ All claims are restricted to the model class studied.
 
 ## Repository Structure
 
+```text
 epc-v7.5/
 ├── src/
 │   ├── epc_v75.py          # EPC v7.5 controller implementation
@@ -51,7 +52,7 @@ epc-v7.5/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Reproducing the Paper Results
