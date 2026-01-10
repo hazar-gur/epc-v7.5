@@ -55,6 +55,23 @@ epc-v7.5/
 ```
 ---
 
+## Summary of Core Results
+
+The table below summarizes the primary behavioral outcomes reproduced by this
+repository. Full statistical results (effect sizes, confidence intervals, and
+p-values) are provided in the paper and in `results/paper_results.json`.
+
+| Condition              | Buffered Collapse | Unbuffered Collapse | Interpretation |
+|------------------------|-------------------|---------------------|----------------|
+| burst_only             | 0%                | 100%                | Buffer absorbs transient stress |
+| burst_mismatch         | 100%              | 100%                | Social pressure erodes buffering |
+| mid_punishment_only    | 0%                | 100%                | Negative control (steady-state prediction confirmed) |
+| support_only           | 0%                | 0%                  | Negative control (support bypasses buffer) |
+
+These results support the central claim that collapse is not caused by instability
+alone, nor by identity rigidity per se, but by an identity-driven amplification
+pathway under sustained pressure.
+
 ## Reproducing the Paper Results
 
 ### 1. Set up a virtual environment
